@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Intro Component With Sign-Up Form</title>
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="robots" content="index,follow" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- <script src="https://kit.fontawesome.com/2c7168afa8.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div class="main-container">
+            <h1>Learn to code by <br>watching others</h1>
+            <p class="intro-text">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+        <div class="try-it-free"><span>Try it free 7 days</span> then <br>$20/mo. thereafter</div>
+        <div class="try-it-free-desktop"><span>Try it free 7 days</span> then $20/mo. thereafter</div>
+        <form id="hero-form">
+            <!-- First Name Input -->
+            <div class="form-group">
+                <input type="text" name="firstName" id="firstName" placeholder="First Name" />
+                <img class="icon-error-fn" src="/img/icon-error.svg" alt="error exclamation point">
+            </div>
+            <div class="error-first-name"></div>
+            <!-- End First Name Input -->
+            <!-- Last Name Input -->
+            <div class="form-group">
+                <input type="text" name="lastName" id="lastName" placeholder="Last Name" />
+                <img class="icon-error-ln" src="/img/icon-error.svg" alt="error exclamation point">
+            </div>
+            <div class="error-last-name"></div>
+            <!-- End Last Name Input -->
+            <!-- Email Input -->
+             <div class="form-group">
+                <input type="email" name="email" id="email" placeholder="Email Address" />
+                <img class="icon-error-email" src="/img/icon-error.svg" alt="error exclamation point">
+             </div>
+            <div class="error-email"></div>
+            <!-- End Email Input -->
+            <!-- Password Input -->
+             <div class="form-group">
+                <input type="password" name="password" id="password" placeholder="Password" />
+                <img class="icon-error-password" src="/img/icon-error.svg" alt="error exclamation point">
+             </div>
+            <div class="error-password"></div>
+            <!-- End Password Input -->
+    
+            <button type="submit" id="submit">CLAIM YOUR FREE TRIAL</button>
+            <p class="text">By clicking the button you are agreeing to our <a href="#" class="terms">Terms and Services</a></p>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
