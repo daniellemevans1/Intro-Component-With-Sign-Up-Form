@@ -97,6 +97,7 @@ span {
     padding: 1em;
     box-shadow: 4px 4px 10px #883434;
     border-radius: 8px;
+    margin-bottom: 4em;
 }
 
 .form-group {
@@ -223,6 +224,7 @@ button:focus {
         max-width: 100%;
         width: 35em;
         padding: 2em 2em 3em 2em;
+        margin-bottom: 0;
     }
 
     #firstName,
