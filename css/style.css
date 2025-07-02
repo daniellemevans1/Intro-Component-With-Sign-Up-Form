@@ -20,7 +20,7 @@
 body {
     font-family: "Poppins", sans-serif;
     font-weight: 100;
-    background-image: url("./img/bg-intro-mobile.png");
+    background-image: url("/img/bg-intro-mobile.png");
     background-color: var(--red);
 
 }
@@ -164,7 +164,7 @@ button:focus {
 @media (min-width: 950px) {
 
     body {
-        background-image: url("./img/bg-intro-desktop.png");
+        background-image: url("/img/bg-intro-desktop.png");
     }
 
     .main-container {
